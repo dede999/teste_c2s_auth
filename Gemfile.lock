@@ -69,6 +69,10 @@ GEM
     crass (1.0.6)
     date (3.3.4)
     diff-lcs (1.5.1)
+    dotenv (3.1.2)
+    dotenv-rails (3.1.2)
+      dotenv (= 3.1.2)
+      railties (>= 6.1)
     erubi (1.13.0)
     factory_bot (6.4.6)
       activesupport (>= 5.0.0)
@@ -192,6 +196,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.4.4)
   byebug
+  dotenv-rails
   factory_bot_rails
   jwt (~> 2.5)
   listen (~> 3.3)
